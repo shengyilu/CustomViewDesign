@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InflateLoadingCircle">
+        <attr name="circleMax" format="dimension"/>
+        <attr name="circleMin" format="dimension"/>
+        <attr name="strokeThick" format="dimension"/>
+        <attr name="strokeThin" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="animDurationMs" format="integer"/>
+    </declare-styleable>
+</resources>

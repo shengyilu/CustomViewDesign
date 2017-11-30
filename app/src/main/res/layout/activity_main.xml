@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sample.customviewdesign.MainActivity">
+
+    <com.sample.customviewdesign.widget.InflateLoadingCircle
+        android:id="@+id/animate_inflate_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"
+        app:animDurationMs="1000"
+        app:circleMax="100dp"
+        app:circleMin="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/colorPrimary"
+        app:strokeThick="10dp"
+        app:strokeThin="5dp"
+        tools:layout_width="100dp"
+        tools:layout_height="100dp"/>
+
+</android.support.constraint.ConstraintLayout>
